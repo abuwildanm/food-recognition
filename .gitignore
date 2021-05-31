@@ -1,0 +1,5 @@
+__pycache__/
+env/
+models/
+*.weights
+flask-vm-server/service-account-key.json
