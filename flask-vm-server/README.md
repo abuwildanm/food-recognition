@@ -90,6 +90,7 @@ pip install -r requirements.txt
 python app.py
 ```
 ![Flask App](https://user-images.githubusercontent.com/34884046/120177610-d0132100-c232-11eb-873c-cd8ae91c1fc0.png)
+
 3. You can use the sample code *request_predict.py* or *request_image.py* to make a request
 ![prediction](https://user-images.githubusercontent.com/34884046/120178436-b4f4e100-c233-11eb-884c-eae04c8267e0.png)
 
