@@ -18,6 +18,8 @@ annotated_image_array = np.fromstring(annotated_image_bytes, np.uint8)
 # decode image
 annotated_image = cv2.imdecode(annotated_image_array, cv2.IMREAD_COLOR)
 print('Annotated image shape: ', annotated_image.shape)
+# save the image
+cv2.imwrite('hasil.jpg', annotated_image)
 # show the image
 cv2.imshow('Annotated image', annotated_image)
 # waits for user to press any key 

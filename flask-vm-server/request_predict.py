@@ -9,7 +9,8 @@ url = "http://34.136.195.110:5000/predict"
 headers = {"content-type": "image/jpg"}
 
 # encode image
-image = cv2.imread('images/test5.jpg')
+image = cv2.imread('images/test1.jpg')
+print(image[:, :, 0])
 _, image_encoded = cv2.imencode(".jpg", image)
 image_bytes = image_encoded.tostring()
 

@@ -4,7 +4,6 @@ import cv2
 from flask import Flask, jsonify, request, Response, abort, send_file
 from yolo import get_predictions
 
-
 app = Flask(__name__)
 
 @app.route("/")
