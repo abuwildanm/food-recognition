@@ -4,6 +4,8 @@
 
 In this project, we try to build a model to recognize Indonesian foods such as rice, omelette, tempeh, and tofu. For now, our model can only recognize that four types of food. Our hope is that in the future we can improve the performance of the model so that the model can recognize more types of Indonesian food
 
+![Demo](https://user-images.githubusercontent.com/34884046/123774860-08705280-d8f8-11eb-8838-b448981045b5.gif)
+
 ## Getting Started
 
 1. Follow this [notebook](https://github.com/abuwildanm/food-recognition/blob/master/Create_Custom_Dataset_From_Google_Images.ipynb) to create custom dataset from Google Images
